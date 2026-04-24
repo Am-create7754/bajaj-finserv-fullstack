@@ -22,7 +22,7 @@ function App() {
 
       // Call the Node.js API
       // TODO: When hosting, change this URL to your Render/Railway backend URL
-      const res = await fetch('http://localhost:3000/bfhl', {
+      const res = await fetch('https://bajaj-finserv-fullstack-1-btn9.onrender.com/bfhl', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ data: parsedData }),
